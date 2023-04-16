@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Nunito";
 }
 
 .App-logo {
@@ -36,3 +37,104 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 60px;
+}
+
+.links {
+  display: flex;
+  gap: 10vw;
+}
+
+.home_flex {
+  display: flex;
+}
+
+
+
+.about_flex {
+  display: flex;
+}
+
+.footer {
+  background-color: #F1F1F1;
+  height: 47vh;
+}
+
+.flex_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_img {
+  width: 40%;
+}
+
+.footer_text {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.footer p {
+  font-weight: 200;
+}
+
+.flex_products{
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  gap: 5%;
+}
+
+.productItemJenson {
+  background-image: url("./img/Bilder/Tisch.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30%;
+  height: 60vh;
+}
+
+
+
+.productItemDeon {
+  background-image: url("./img/Bilder/Stuhl.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30%;
+  height: 60vh;
+}
+
+.productItemKrisha {
+  background-image: url("./img/Bilder/Schuesseln.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30%;
+  height: 60vh;
+}
+
+.headliner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
